@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+.background{
+    position: absolute;
+    height: 100vh ;
+    width: 100%;
+    background-image: url('maxresdefault.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:opacity(0.8);
+    z-index: -1;
+}
+
+.image{
+    margin-top: 10px;
+    margin-left: 0;
+    position: absolute; 
+}
+.instruction{
+    position:absolute;
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+    padding: 100px 70px 0px 70px;
+    box-sizing: border-box;
+}
+.form{
+    background-color: #fff;
+    padding: 40px 20px;
+    filter:opacity(0.9);
+    
+}
+.instruct{
+    background-color: #fff;
+    width: 700px;
+    border-radius: 4px;
+    padding: 15px 15px 15px 15px;
+    margin-left: -38px;
+    filter:opacity(0.8);
+    height: 90%;
+
+}
+.login{
+    background-color:rgba(	72, 70, 34,0.9);
+    /* width:400px; */
+    padding: 10px ;
+    /* background: transparent; */
+
+    
+}
+li{
+    margin-left: 45px;
+    line-height: 1.3;
+}
+.welcome{
+    margin-left: -2px;
+    color: rgb(64, 109, 167);
+}
+
+.portal{
+    /* background-color: #b13838; */
+    /* filter:opacity(0.8); */
+    border-radius: 4px;
+    width:500px;
+    height: 500px;
+}
+
+input{
+    width: 100%;
+    /* background-color:rgb(187, 194, 187) ; */
+    border:0;
+    background: transparent;
+    outline: 0;
+    padding:8px;
+    /* margin-top: -5px; */
+    position: relative;
+
+}
+
+.input_field{
+    background:#dfe4ef;
+    margin:15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn{
+    background-color: green; 
+    width: 100%; 
+    padding: 15px; 
+    border: 0; 
+    border-radius: 3px;
+    filter: opacity(0.6); 
+    color: white;   
+}
+
+.btn:hover{
+    filter: opacity(0.8);
+    /* background-color: rgb(43, 107, 73); */
+}
+
+
+input:focus{
+    border: 1px solid rgb(62, 62, 111);
+    border-radius: 3px;
+
+}
+
+.fp{
+    /* left: 0px; */
+    /* position: relative; */
+    /* padding: 15px; */
+    margin-right: 0px;
+}
